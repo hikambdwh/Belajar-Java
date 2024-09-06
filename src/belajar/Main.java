@@ -18,6 +18,7 @@ public class Main {
         String salary = String.format("%.2f", hasil);
         System.out.println("NUMBER = " + number);
         System.out.println("SALARY = U$ " + salary);
+        System.out.println("yeyy kamu benarr");
     }
     
 }
