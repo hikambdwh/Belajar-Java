@@ -17,6 +17,7 @@ public class Main {
         System.out.println("NUMBER = " + number);
         System.out.println("SALARY = U$ " + salary);
         System.out.println("yeyy kamu benarr");
+        System.out.println("ayooo coba lagi");
     }
     
 }
