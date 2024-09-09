@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package tutorial;
-
 import java.util.*;
 
 class Karyawan {
@@ -26,11 +25,13 @@ public class objectClass {
             karyawan1.divisi = sc.nextLine();
             karyawan1.umur = sc.nextInt();
             karyawan1.gaji = sc.nextDouble();
-
+            sc.nextLine();
+            
             System.out.println(karyawan1.nama);
             System.out.println(karyawan1.umur);
             System.out.println(karyawan1.divisi);
             System.out.println(karyawan1.gaji);
+            
 
         }
 
