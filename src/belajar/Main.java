@@ -11,9 +11,9 @@ public class Main {
 
         int number = sc.nextInt();
         int hours = sc.nextInt();
-        float paid = sc.nextFloat();
-        float hasil = (float) hours * paid;
-        String salary = String.format("%.2f", hasil);
+        double paid = sc.nextFloat();
+        double hasil = (double) hours * paid;
+        String salary = String.format("%.6f", hasil);
         System.out.println("NUMBER = " + number);
         System.out.println("SALARY = U$ " + salary);
         System.out.println("yeyy kamu benarr");
