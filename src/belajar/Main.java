@@ -13,7 +13,7 @@ public class Main {
         int hours = sc.nextInt();
         double paid = sc.nextFloat();
         double hasil = (double) hours * paid;
-        String salary = String.format("%.6f", hasil);
+        String salary = String.format("%.2f", hasil);
         System.out.println("NUMBER = " + number);
         System.out.println("SALARY = U$ " + salary);
         System.out.println("yeyy kamu benarr");
