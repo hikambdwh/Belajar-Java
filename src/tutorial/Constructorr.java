@@ -22,7 +22,6 @@ class Mahasiswa {
         umur = inputUmur;
         jurusan = inputJurusan;
 
-        System.out.println("Nama saya " + nama + " saya berumur " + umur + " saya dari jurusan " + jurusan);
     }
 }
 
@@ -40,7 +39,8 @@ public class Constructorr {
             String inputJurusan = sc.nextLine();
 
             Mahasiswa mahasiswa1 = new Mahasiswa(inputNama, inputUmur, inputJurusan);
-            
+            System.out.println("Nama saya " + mahasiswa1.nama + " saya berumur " + mahasiswa1.umur + 
+                              " saya dari jurusan " + mahasiswa1.jurusan);
 
         }
 
