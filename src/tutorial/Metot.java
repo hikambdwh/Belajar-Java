@@ -1,20 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package tutorial;
 
-/**
- *
- * @author hikap
- */
-class Mahasiswa {
+
+class Mhs {
 
     String nama;
     int umur;
     String jurusan;
 
-    Mahasiswa(String nama, String jurusan) {
+    Mhs(String nama, String jurusan) {
         this.nama = nama;
         this.jurusan = jurusan;
 
@@ -40,7 +34,7 @@ public class Metot {
 
     public static void main(String[] args) {
 
-        Mahasiswa mahasiswa1 = new Mahasiswa("Hikam", "MKB");
+        Mhs mahasiswa1 = new Mhs("Hikam", "MKB");
         System.out.println(mahasiswa1.nama);
 
         mahasiswa1.show();
